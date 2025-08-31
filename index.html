@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Portafolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Encabezado -->
+  <header>
+    <div class="container">
+      <h1>Christopher Del Carpio</h1>
+      <p>Desarrollador Web | Estudiante | Creativo 🚀</p>
+      <button id="btn-contacto">Contáctame</button>
+    </div>
+  </header>
+
+  <!-- Navegación -->
+  <nav>
+    <a href="#sobre-mi">Sobre mí</a>
+    <a href="#proyectos">Proyectos</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <!-- Sección Sobre mí -->
+  <section id="sobre-mi" class="seccion">
+    <h2>Sobre mí</h2>
+    <p>
+      ¡Hola! Soy Christopher, un apasionado por el desarrollo web. Me gusta crear páginas
+      interactivas y aprender nuevas tecnologías para mejorar cada día.
+    </p>
+  </section>
+
+  <!-- Sección Proyectos -->
+  <section id="proyectos" class="seccion">
+    <h2>Proyectos</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Proyecto 1</h3>
+        <p>Página web de ejemplo en HTML5 y CSS.</p>
+      </div>
+      <div class="card">
+        <h3>Proyecto 2</h3>
+        <p>Aplicación con JavaScript interactivo.</p>
+      </div>
+      <div class="card">
+        <h3>Proyecto 3</h3>
+        <p>Trabajo en equipo para una solución digital.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección Contacto -->
+  <section id="contacto" class="seccion">
+    <h2>Contacto</h2>
+    <form id="form-contacto">
+      <input type="text" id="nombre" placeholder="Tu nombre" required>
+      <input type="email" id="email" placeholder="Tu correo" required>
+      <textarea id="mensaje" placeholder="Escribe tu mensaje..." required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+    <p id="estado"></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Christopher Del Carpio | Todos los derechos reservados</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
